@@ -4,6 +4,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
+// INSTRUCTIONS FOR REVIEW:
+// Check out the main function, this contains a loop which will handle user input in one of two locations: 
+// 1) main menu - A welcome screen which gives the user an introduction and review of save state
+// 2) the reading display - this display allows the user to read Cicero's work and navigate between screens
+
 public class CiceroReader {
     private static final int LINES_PER_PAGE = 10;
     private static final Path SAVE_FILE = Paths.get("save.txt");
